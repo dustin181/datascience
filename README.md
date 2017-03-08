@@ -1,1 +1,1 @@
-"# datascience" 
+Notebooks can be viewed in static form here on Github. To view them in interactive mode go to the following website: https://nbviewer.jupyter.org/ and paste in the address of the notebook from this Github. Example address: https://github.com/dustin181/datascience/blob/master/EDA/2016%20General%20Election%20Analysis.ipynb
