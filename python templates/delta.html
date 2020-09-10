@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Posts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        {% for n in post_count_delta_list %}
+        <li >{{ loop.index}} time: {{n.0}} delta: {{ n.1 }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <script src="static/jquery-1.10.2.min.js"></script>
+    <script src="static/bootstrap.min.js"></script>
+  </body>
+</html>

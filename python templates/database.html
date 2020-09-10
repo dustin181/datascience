@@ -1,0 +1,10 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="container">
+  <ul class="list-group">
+    {% for n in database_posts %}
+    <li class="list-group-item">{{ loop.index}} {{n}}</li>
+    {% endfor %}
+  </ul>
+</div>
+{%endblock%}
